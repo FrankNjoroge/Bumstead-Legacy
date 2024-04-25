@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  overflow-x: hidden;
+  font-family: Arial;
+}
+
+header {
+  background-color: #1f2937;
+  padding: 10px 124px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.logo {
+  color: #e5e7eb;
+  font-size: 24px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+.hero {
+  display: flex;
+  gap: 55px;
+  padding: 20px;
+}
+
+.hero img {
+  height: auto;
+  width: 250px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+  margin-bottom: 25px;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-bottom: 40px;
+}
+
+button {
+  background-color: #3882f6;
+  color: #fff;
+  border: none;
+  padding: 9px 20px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+#about {
+  padding: 45px 60px;
+}
+#about h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  margin-bottom: 40px;
+}
+#about p {
+  width: 81vw;
+  margin: 30px auto;
+  font-size: 18px;
+  line-height: 1.6;
+}
+.random {
+  display: flex;
+  gap: 95px;
+  justify-content: center;
+  margin: 60px;
+}
+.random .box small {
+  font-size: 14.9px;
+  display: inline-block;
+  width: 120px;
+}
+.cbum2 {
+  height: auto;
+  width: 280px;
+}
+.cbum3 {
+  height: auto;
+  width: 240px;
+}
+.cbum4 {
+  height: auto;
+  width: 300px;
+}
+.quote {
+  background-color: #e5e7eb;
+  padding: 120px;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+  margin-bottom: 100px;
+}
+.quote h5 {
+  text-align: right;
+}
+.call-to-action {
+  width: 81vw;
+  margin: 40px auto 120px;
+  padding: 40px 50px;
+  border-radius: 8px;
+  color: #fff;
+  background-color: #3882f6;
+  display: flex;
+  align-items: center;
+  gap: 65px;
+}
+.call-to-action p {
+  margin-top: 5px;
+  font-weight: 100;
+  color: #bfd3ee;
+}
+
+.call-to-action button {
+  border: 1px solid #fff;
+  flex-grow: 0;
+}
+
+footer {
+  background-color: #1f2937;
+  padding: 40px;
+  color: #f9faf8;
+  text-align: center;
+}

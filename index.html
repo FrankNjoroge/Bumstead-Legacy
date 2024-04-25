@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing page</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">CBUM</div>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="hero">
+        <div class="left">
+          <h1>Meet & Greet with the GOAT</h1>
+          <p>
+            Get ready to meet one of the most iconic figures in the world of
+            bodybuilding - <strong>Chris Bumstead!</strong> Join us for an
+            exclusive meet and greet event with the reigning 5X Mr. Olympia
+            Men's Classic Physique champion.
+          </p>
+          <button>Sign up</button>
+        </div>
+
+        <img src="./Images/cbum2.jpg" alt="" />
+      </div>
+    </header>
+    <section id="about">
+      <h2>About Chris</h2>
+      <p>
+        <strong>Chris Bumstead</strong> is the reigning Mr. Olympia Men's
+        Classic Physique champion. CBUM (his alias) has risen to prominence as
+        one of the top athletes in the world of bodybuilding. With his
+        impressive physique, unwavering dedication, and charismatic personality,
+        Chris has inspired countless individuals around the globe to pursue
+        their fitness goals and embrace a healthy lifestyle.
+      </p>
+      <h2>What to expect</h2>
+      <p>
+        At this meet and greet event, you'll have the unique opportunity to meet
+        Chris Bumstead in person, hear his inspiring journey firsthand, and
+        learn valuable insights for achieving your fitness aspirations. Whether
+        you're a seasoned bodybuilder or just starting your fitness journey,
+        Chris's wisdom and expertise will leave you feeling motivated and
+        empowered to reach new heights.
+      </p>
+      <div class="random">
+        <div class="box">
+          <div><img class="cbum2" src="./Images/cbum4.jpeg" alt="" /></div>
+          <caption>
+            <em>Cbum at the 2019 olympia</em>
+          </caption>
+        </div>
+        <div class="box">
+          <div><img class="cbum3" src="./Images/cbum.jpeg" alt="" /></div>
+          <caption>
+            <em>Cbum during prep</em>
+          </caption>
+        </div>
+        <div class="box">
+          <div><img class="cbum4" src="./Images/cbum5.png" alt="" /></div>
+          <caption>
+            <em>Cbum at the 2022 olympia</em>
+          </caption>
+        </div>
+      </div>
+    </section>
+    <section class="quote">
+      <p>
+        "No man has the right to be an amateur in the matter of physical
+        training. It is a shame for a man to grow old without seeing the beauty
+        and strength of which his body is capable."
+      </p>
+      <h5>- Socrates</h5>
+    </section>
+
+    <section class="call-to-action">
+      <div>
+        <h3>Call to action! it's time!</h3>
+        <p>
+          Join now for exclusive access and be part of something extraordinary!
+        </p>
+      </div>
+
+      <button>Sign up</button>
+    </section>
+
+    <footer>
+      <p>Copyright &copy; The Odin Project 2024</p>
+    </footer>
+    <script>
+      const btn = document.querySelector("button");
+      btn.addEventListener("click", () => {
+        alert("Thank you for signing up!");
+      });
+    </script>
+  </body>
+</html>
